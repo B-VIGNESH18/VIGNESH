@@ -1,0 +1,34 @@
+div.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+    margin: 30%;
+    margin-top: 100px;
+    
+}
+
+
+
+
+
+div{
+    text-align: center;
+    font-size: x-large;
+    border: 2px solid red;
+    padding: 30px;
+    background-color:aquamarine;
+}
+
+.grid-1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+
+.grid-5{
+    grid-column-start: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+
